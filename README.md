@@ -44,6 +44,7 @@ Enzyme Core Model: Cas9 (PAM sequence requirement: NGG)
 Targeting Region Bounds: Coding Exon Intersection Alignment
 
 Selected Guide Candidates
-RANK	Target Sequence (5’ -> 3’)	PAM	 Genomic Location	 GC Content	  MM0/MM1/MM2/MMI
-1	       TCAAGGTGTCCGGGTCCGAG	    AGG	  chr10:62813207	     65	          0/0/0/0
-2	       GCAAGACGCCGGTGCACGAG	    AGG	  chr10:628132624	     70	          0/0/0/0
+
+RANK	 Target Sequence (5’ -> 3’)	  PAM	 Genomic Location	 GC Content	  MM0/MM1/MM2/MMI
+ 1	       TCAAGGTGTCCGGGTCCGAG	    AGG	  chr10:62813207	     65	          0/0/0/0
+ 2	       GCAAGACGCCGGTGCACGAG	    AGG	  chr10:628132624	     70	          0/0/0/0
