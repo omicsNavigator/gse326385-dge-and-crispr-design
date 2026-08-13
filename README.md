@@ -3,12 +3,12 @@ A complete bioinformatics workflow evaluating a Free Fatty Acid (FFA)-induced me
 
 Project Overview
 This repository contains a unified bioinformatic workflow executing two core analytical milestones:
-1. Differential Gene Expression (DGE) parsing using `DESeq2` in R to evaluate a Free Fatty Acid (FFA)-induced metabolic cell stress model.
+1. Differential Gene Expression (DGE) parsing using DESeq2 in R to evaluate a Free Fatty Acid (FFA)-induced metabolic cell stress model.
 2. CRISPR/Cas9 Guide RNA Engineering via CHOPCHOP to isolate viable gene knockouts targeting the master regulatory driver EGR2.
 
 Task 1: Differential Gene Expression (DGE)
 Methodology
-Pipeline Framework: `DESeq2` empirical Bayes analysis.
+Pipeline Framework: DESeq2 empirical Bayes analysis.
 Data Dimension: 18 high-throughput transcriptomic replicates (9 Control baseline vs 9 FFA-Treated).
 Significance Thresholds: Adjusted P-value (FDR) < 0.05, |Log2 Fold Change| > 1.0.
 
@@ -35,7 +35,7 @@ Key observations:
 
 Task 2: CRISPR/Cas9 Guide RNA Engineering
 Design Objective
-To systematically silence the master zinc-finger transcription factor `EGR2` which was found significantly overexpressed under lipotoxic stress in Task 1.
+To systematically silence the master zinc-finger transcription factor EGR2 which was found significantly overexpressed under lipotoxic stress in Task 1.
 
 Guide Design Parameters
 Target Software Platform: CHOPCHOP Suite (v3)
